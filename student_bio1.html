@@ -1,0 +1,94 @@
+<!DOCTYPE! html>
+
+<html>
+<head>
+	<title>Matt's Bio</title>
+
+	<style type="text/css">
+		
+		body {
+			background-color: rgba(255, 193, 7, 0.46); 
+			margin: 0;
+			padding: 0;
+			font-family:Courier;
+		}
+
+		#header {
+			color: #333333;
+			font-size: 40px; 
+			font-family: Courier;
+			
+			text-align: center;
+
+		}
+
+		h2 {
+			font-style: Courier;
+			clear: left;
+
+		}
+		
+		.list {
+			color:#333333;
+			font-family: Courier;
+			text-align: center;
+			list-style-type: circle;
+			list-style-position: inside;
+			
+		}
+
+		
+
+		h2 {
+			text-align: center;
+
+		}
+
+		#bio-image {
+
+			display: block;
+			margin:0 auto;
+			width: 300px;
+			height: 300px;
+		}
+
+
+
+		p {
+			text-align: center;
+		}
+
+
+
+	
+	</style>
+
+</head>
+
+<body>
+	
+	<div id="header">
+		<H1>Matt's Bio</H1>
+	</div>
+	
+	<H2>Matt Mandel</H2><br>
+	
+	<img src="data:image/png;base64,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" alt="my pic" id="bio-image">
+
+	<p>My name is Matt. I go to Rutgers Coding Bootcamp. This is my student bio.<p>
+
+	<H2>Contact Info</H2>
+
+	<div id="list1">
+		<ul>
+		
+		<li class="list"><strong>Email: </strong><a href="mailto:3786matt@gmail.com" target="_blank">3786matt@gmail.com</a></li>
+		
+		<li class="list"><strong>Github:</strong> <a href="https://github.com/3786matt"CC>3786matt</a></li>
+		
+		<li class="list"><strong>Portfolio:</strong><a href="#">coming soon</a></li>
+	
+		</ul>
+	</div>
+</body>
+</html>
